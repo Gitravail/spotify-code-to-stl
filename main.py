@@ -1,5 +1,7 @@
 import stlotipy.stlotipy as stlotipy
+import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
-    json = stlotipy.get_spotify_code_image('https://open.spotify.com/track/1Mf27cnAF1Q6Ko83XTM5d1?si=0d057061461d4203')
-    print(json)
+    image = stlotipy.get_spotify_code_image('https://open.spotify.com/album/2Cv2mrKMRyYuXJTlQmY4hj?si=-bzPyrJ6QxeO-oUaGDXjyA')
+    plt.imshow(image)
+    plt.show()
