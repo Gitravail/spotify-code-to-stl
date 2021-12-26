@@ -6,7 +6,7 @@ This project aims to create a Python module to generate a spotify code in 3D fro
 
 It can then be used for different purpose such as :
 * An automated, on demand 3D printed spotify tag (on a small scale assembly line per example)
-* A simple UI to generate a 3D model of a music
+* A simple UI to generate a 3D model of a song
 
 # Quick start
 
