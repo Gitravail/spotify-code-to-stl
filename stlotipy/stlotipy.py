@@ -3,7 +3,7 @@ import requests
 # Regex
 import re
 # Image processing
-import PIL.Image as Image
+from PIL import Image
 import io
 # Misc
 from enum import Enum
